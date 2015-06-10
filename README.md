@@ -1,7 +1,8 @@
 ## Note Taking Application
 
-Run with:
+To run:
 ```
+    cd NoteTakingRESTServer/
     ./gradlew build && java -jar ./build/libs/note-taking-rest-server-0.1.0.jar
 ```
 
@@ -21,7 +22,7 @@ Note: You will need mongodb installed and running with default configuration.
 ```
     curl -i -H "Accept: application/json" -X GET http://localhost/api/notes
 ```
-    or
+or
 ```
     curl -i -H "Accept: application/json" -X GET http://localhost/api/notes?query=forget
 ```
